@@ -1,0 +1,26 @@
+{
+  "name": "ecommerce-admin-dashboard",
+  "version": "1.0.0",
+  "description": "Modern e-commerce admin dashboard with dark theme",
+  "main": "index.html",
+  "scripts": {
+    "dev": "node init && live-server --port=3000 --open=index.html",
+    "build": "node init && echo 'Build complete - static files ready'",
+    "start": "node init && live-server --port=3000 --open=index.html"
+  },
+  "dependencies": {
+    "chart.js": "^4.4.0",
+    "lucide": "^0.294.0"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "keywords": [
+    "dashboard",
+    "ecommerce",
+    "admin",
+    "analytics"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
